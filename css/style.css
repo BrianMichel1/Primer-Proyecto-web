@@ -16,15 +16,6 @@ html {
 
 /* scroll snap */
 
-@media (min-width: 768px) {
-    .servicios,
-    .navegacion-principal,
-    .formulario {
-    scroll-snap-align: center;
-    scroll-snap-stop: always;
-}
-}
-
 *, *:before, *:after {
     box-sizing: inherit;
   }
