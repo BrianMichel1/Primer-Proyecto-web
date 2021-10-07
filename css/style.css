@@ -11,10 +11,18 @@
 html {
     font-size: 62.5%;
     box-sizing: border-box; /* hack para box model */
-  
+    scroll-snap-type: y mandatory;
 }
 
 /* scroll snap */
+@media (min-width: 768px) {
+    .servicios,
+    .navegacion-principal,
+    .formulario {
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+}
+} 
 
 *, *:before, *:after {
     box-sizing: inherit;
